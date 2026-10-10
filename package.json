@@ -1,0 +1,18 @@
+{
+  "name": "go-omp-rotate",
+  "version": "0.1.0",
+  "description": "Sync OpenCode Go API keys into the OMP credential pool",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["omp-plugin", "oh-my-pi", "opencode"],
+  "omp": {
+    "extensions": ["./src/index.ts"]
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sersh88/go-omp-rotate.git"
+  }
+}
